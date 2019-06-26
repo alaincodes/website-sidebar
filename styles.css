@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  display: flex;
+}
+
+nav {
+  background: papayawhip;
+  height: 100vh;
+  min-width: 20vw;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  position: fixed;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  margin: auto;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+section {
+  background: papayawhip;
+  width: 80vw;
+  margin-left: 20vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-text {
+  font-size: 2rem;
+  padding: 2.5rem;
+  margin: 1rem auto;
+  max-width: 900px;
+}
+
+.second-text {
+  font-size: 1.4rem;
+  background: black;
+  color: ghostwhite;
+  margin: 2rem auto;
+  padding: 1rem;
+  transform: rotate(-9deg);
+  width: 500px;
+}
+
+.third-text {
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  max-width: 500px;
+}
+
+.team-title {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 2rem auto;
+  grid-gap: 1rem;
+}
+
+.team-portrait1 {
+  background: url(./images/alex-iby-XhMSz5I1kn8-unsplash.jpg);
+  background-size: cover;
+  height: 250px;
+  width: 200px;
+}
+
+.team-portrait2 {
+  background: url(./images/azamat-zhanisov-wO4gtmdlW5Y-unsplash.jpg);
+  background-size: cover;
+  height: 250px;
+  width: 200px;
+}
+
+.team-portrait3 {
+  background: url(./images/ethan-haddox-NTjSR3zYpsY-unsplash.jpg);
+  background-size: cover;
+  height: 250px;
+  width: 200px;
+}
+
+.team-portrait4 {
+  background: url(./images/jack-finnigan-rriAI0nhcbc-unsplash.jpg);
+  background-size: cover;
+  height: 250px;
+  width: 200px;
+}
+
+.team-portrait5 {
+  background: url(./images/philipe-cavalcante-oxN_qoqB8BI-unsplash.jpg);
+  background-size: cover;
+  height: 250px;
+  width: 200px;
+}
+
+.team-portrait6 {
+  background: url(./images/robert-godwin-cdksyTqEXzo-unsplash.jpg);
+  background-size: cover;
+  height: 250px;
+  width: 200px;
+}
+
+.team-desc {
+  font-size: 0.8rem;
+  max-width: 150px;
+}
+
+.aside-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem auto;
+  width: 70vw;
+}
+
+li:first-child {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.aside-clients {
+  list-style-type: none;
+  background: lightseagreen;
+  transform: rotate(-10deg);
+  width: 300px;
+  padding: 1rem;
+  margin: 1rem 1rem;
+}
+
+.aside-awards {
+  list-style-type: none;
+  margin: 1rem 1rem;
+}
+
+.contact {
+  margin: 2rem auto;
+  max-width: 600px;
+  font-size: 1.5rem;
+}
+
+.footer {
+  height: 5rem;
+}
